@@ -1,0 +1,36 @@
+Arguments: 
+  /home/bruno/.nvm/versions/node/v14.15.5/bin/node /home/bruno/.nvm/versions/node/v14.15.5/bin/yarnpkg add @rails/webpacker@4.3.0
+
+PATH: 
+  /home/bruno/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/bin:/home/bruno/.rbenv/versions/2.7.4/bin:/home/bruno/.rbenv/libexec:/home/bruno/.rbenv/plugins/ruby-build/bin:./bin:./node_modules/.bin:/home/bruno/.nvm/versions/node/v14.15.5/bin:/home/bruno/.rbenv/shims:/home/bruno/.rbenv/bin:/home/bruno/.pyenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/Brackets/command:/mnt/c/Program Files/PuTTY/:/mnt/c/Users/matos/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/matos/AppData/Local/Programs/Microsoft VS Code/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  14.15.5
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)
+
+npm manifest: 
+  {
+    "name": "rails_task_manager",
+    "private": true,
+    "dependencies": {
+      "@rails/ujs": "^6.0.0",
+      "turbolinks": "^5.2.0",
+      "@rails/actioncable": "^6.0.0"
+    },
+    "version": "0.1.0"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
